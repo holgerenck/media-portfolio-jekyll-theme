@@ -3,11 +3,11 @@
 "item", "item.show_tile != false" %} {% endif %}
 <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
-  <article>
+  <article hoverTitle>
     <span class="image">
       <img src="{{ tile.image }}" alt="" />
     </span>
-    <header class="major hoverTitle">
+    <header class="major">
       <h3>
         <a href="{{ tile.url  | relative_url }}" class="link"
           >{{ tile.title }}</a

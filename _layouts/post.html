@@ -20,12 +20,17 @@
           </header>
           {% include vimeoPlayer.html id=page.vimeoId %}
           <div class="image-row">
-            {% if page.image %}
-            <img src="{{ site.baseurl }}/{{ page.image }}" alt="" />{% endif %}
-            {% if page.image2 %}<img
+            {% if page.image1 %}
+            <img
+              width="33%"
+              src="{{ site.baseurl }}/{{ page.image1 }}"
+              alt=""
+            />{% endif %} {% if page.image2 %}<img
+              width="33%"
               src="{{ site.baseurl }}/{{ page.image2 }}"
               alt=""
             />{% endif %} {% if page.image3 %}<img
+              width="33%"
               src="{{ site.baseurl }}/{{ page.image3 }}"
               alt=""
             />{% endif %}

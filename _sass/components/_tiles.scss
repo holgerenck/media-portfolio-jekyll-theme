@@ -44,16 +44,9 @@
     }
 
     header {
-      position: relative;
+      opacity: 0;
       z-index: 3;
-    }
-
-    .hoverTitle {
-      visibility: hidden;
-      &:hover {
-        visibility: visible;
-        background-color: rgba(0, 0, 0, 0.335);
-      }
+      position: relative;
     }
 
     h3 {
@@ -104,6 +97,9 @@
     &:hover {
       &:before {
         opacity: 0.85;
+      }
+      header {
+        opacity: 1;
       }
     }
 

@@ -3,9 +3,9 @@
 "item", "item.show_tile != false" %} {% endif %}
 <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
-  <article class="hoverTitle">
+  <article>
     <span class="image">
-      <img src="{{ tile.image1 }}" alt="" />
+      <img src="{{ tile.preview }}" alt="" />
     </span>
     <header class="major">
       <h3>

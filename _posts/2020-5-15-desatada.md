@@ -2,7 +2,7 @@
 layout: post
 title: desatada
 description: // short fiction / chile / 2017
-preview: assets/images/desatada/desatada01.jpg
+preview: assets/images/desatada/desatada03.jpg
 images:
   - assets/images/desatada/desatada01.jpg
   - assets/images/desatada/desatada02.jpg

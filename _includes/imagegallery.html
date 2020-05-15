@@ -1,7 +1,9 @@
 <div class="image-gallery">
   {% for image in include.images %}
   <div class="image-gallery-entry">
-    <img class="gallery-image" src="{{ site.baseurl }}/{{ image }}" alt="" />
+    <a href="{{ site.baseurl }}/{{ image }}" class="lightbox-image gallery">
+      <img class="gallery-image" src="{{ site.baseurl }}/{{ image }}" alt=""
+    /></a>
   </div>
   {% endfor %}
 </div>

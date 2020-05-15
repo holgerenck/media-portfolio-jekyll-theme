@@ -15,4 +15,4 @@ vimeoId:
 ---
 
 // short fiction / 2018
-/ direction: markus ott & chrisof hans
+/ directed by markus ott & chrisof hans

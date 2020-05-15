@@ -19,24 +19,8 @@
             <h1>{{ page.title }}</h1>
           </header>
           {% if page.vimeoId %} {% include vimeoPlayer.html id=page.vimeoId %}
-          {% endif %}
-          <div class="image-row">
-            {% if page.image1 %}
-            <img
-              width="33%"
-              src="{{ site.baseurl }}/{{ page.image1 }}"
-              alt=""
-            />{% endif %} {% if page.image2 %}<img
-              width="33%"
-              src="{{ site.baseurl }}/{{ page.image2 }}"
-              alt=""
-            />{% endif %} {% if page.image3 %}<img
-              width="33%"
-              src="{{ site.baseurl }}/{{ page.image3 }}"
-              alt=""
-            />{% endif %}
-          </div>
-          {{ content }}
+          {% endif %} {% if page.images %}{% include imagegallery.html
+          images=page.images %}{% endif %} {{ content }}
         </div>
       </section>
     </div>

@@ -2,7 +2,7 @@
 layout: post
 title: the clown
 description: // music video / 2019
-preview: - assets/theclown/theclown05.jpg
+preview: assets/theclown/theclown05.jpg
 images:
   - assets/theclown/theclown01.jpg
   - assets/theclown/theclown02.jpg

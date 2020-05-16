@@ -1,0 +1,22 @@
+---
+layout: post
+title: the clown
+description: // music video / 2019
+preview: - assets/theclown/theclown05.jpg
+images:
+  - assets/theclown/theclown01.jpg
+  - assets/theclown/theclown02.jpg
+  - assets/theclown/theclown03.jpg
+  - assets/theclown/theclown04.jpg
+  - assets/theclown/theclown05.jpg
+  - assets/theclown/theclown06.jpg
+  - assets/theclown/theclown07.jpg
+  - assets/theclown/theclown09.jpg
+  - assets/theclown/theclown10.jpg
+
+vimeoId: 376628653
+---
+
+/// music video / 2019 / berlin
+// rasha nahas - the clown
+/ directed by lili zahavi

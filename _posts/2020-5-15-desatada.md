@@ -1,6 +1,5 @@
 ---
 layout: post
-title: desatada
 description: // short fiction / chile / 2017
 preview: assets/images/desatada/desatada03.jpg
 images:
@@ -10,8 +9,14 @@ images:
   - assets/images/desatada/desatada04.jpg
   - assets/images/desatada/desatada05.jpg
   - assets/images/desatada/desatada06.jpg
+  - assets/images/desatada/desatada07.jpg
+  - assets/images/desatada/desatada08.jpg
+  - assets/images/desatada/desatada09.jpg
+  - assets/images/desatada/desatada10.jpg
+  - assets/images/desatada/desatada11.jpg
 
-vimeoId: 117277673
+vimeoId: 376628653
 ---
 
 // short fiction / chile / 2017
+/ directed by holger enck

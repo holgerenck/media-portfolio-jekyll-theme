@@ -9,6 +9,9 @@ images:
   - assets/images/flohplage/flohplage03.jpg
   - assets/images/flohplage/flohplage04.jpg
   - assets/images/flohplage/flohplage05.jpg
+  - assets/images/flohplage/flohplage06.jpg
+  - assets/images/flohplage/flohplage07.jpg
+  - assets/images/flohplage/flohplage08.jpg
 
 
 vimeoId: 

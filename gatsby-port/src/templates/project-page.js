@@ -25,9 +25,9 @@ const ProjectPageTemplate = ({ data, pageContext, location }) => {
         <InnerWrapper>
           <Helmet>
             <title>
-              {siteTitle} | {project.frontmatter.title}
+              {project.frontmatter.title} | {siteTitle}
             </title>
-            <meta name="description" content="Landing Page" />
+            <meta name="description" content="Project info" />
           </Helmet>
           {/* <SEO
         title={post.frontmatter.title}
@@ -64,7 +64,6 @@ export const pageQuery = graphql`
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
-      excerpt(pruneLength: 160)
       html
       frontmatter {
         title
@@ -73,7 +72,7 @@ export const pageQuery = graphql`
         description
         images {
           childImageSharp {
-            fluid(maxWidth: 800) {
+            fluid(maxWidth: 1920) {
               ...GatsbyImageSharpFluid
             }
           }

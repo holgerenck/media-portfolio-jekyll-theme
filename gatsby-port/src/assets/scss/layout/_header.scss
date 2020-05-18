@@ -274,7 +274,8 @@
   @include breakpoint(xsmall) {
     .logo {
       span {
-        display: none;
+        //display: none;
+        font-size: 8pt;
       }
     }
 

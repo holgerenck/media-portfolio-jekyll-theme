@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  margin: 3em;
+  margin: 2em;
 
   position: relative;
   padding-bottom: calc(540 / 1296 * 100%); /* 41.66666667% */

@@ -129,7 +129,10 @@ const Content = styled.div`
   width: 64%;
   overflow: hidden;
   background: none;
-  border: none;
+
+  @media (max-width: 768px) {
+    width: 84%;
+  }
 `;
 
 const Modal = ({ children, isOpen, onRequestClose }) => {

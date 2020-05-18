@@ -13,6 +13,17 @@ const InnerWrapper = styled.div`
   margin: 0 auto;
   max-width: 65em;
   width: calc(100% - 6em);
+
+  @media (max-width: 768px) {
+    width: calc(100% - 1em);
+  }
+`;
+
+const Header = styled.header`
+  margin: 0 1em;
+
+  @media (max-width: 768px) {
+  }
 `;
 
 const ProjectPageTemplate = ({ data, pageContext, location }) => {
@@ -34,10 +45,10 @@ const ProjectPageTemplate = ({ data, pageContext, location }) => {
         description={post.frontmatter.description || post.excerpt}
       /> */}
           <article>
-            <header class="major">
+            <Header className="major">
               <h1>{project.frontmatter.title}</h1>
               {/* <p>{project.frontmatter.date}</p> */}
-            </header>
+            </Header>
             {project.frontmatter.vimeoId && (
               <VimeoPlayer vimeoId={project.frontmatter.vimeoId} />
             )}
